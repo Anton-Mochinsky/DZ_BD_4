@@ -1,0 +1,13 @@
+--INSERT INTO singers(name)
+--VALUES('Певец 7')
+
+--INSERT INTO genres (name)
+--VALUES('Жанр 5')
+--INSERT INTO alboms (name, year)
+--VALUES('Альбом 7',2020)
+--INSERT INTO tracks (name, duration, albom_id)
+--VALUES('my Трек 15', 322, 8)
+--INSERT INTO collections (name, year, track_id)
+--VALUES('Сборник 7', 2022, 12)
+INSERT INTO albomssingers (albom_id, singer_id)
+VALUES(8,8)
